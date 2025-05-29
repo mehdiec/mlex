@@ -1,0 +1,23 @@
+# General settings
+device_index: 0
+root_dir: /home/nexton/Documents/mlex/ml_exercise_therapanacea/
+checkpoint_dir: /mnt/DATA/checkpoints_cp_lat
+checkpoint_path: null
+
+# Training parameters
+num_epochs: 100
+batch_size: 256
+lr: 0.0004
+weight_decay: 0.001
+scheduler: one_cycle
+pos_weight: 0.2
+
+# Model parameters
+model_type: resnet
+num_classes: 1
+channels: 3
+# freeze: false
+pretrained: true
+dim_base: 32
+classification_head_depth: 2
+classification_head_dropout: 0.5

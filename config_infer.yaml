@@ -1,0 +1,8 @@
+# General settings
+device_index: 0
+output_file: /home/nexton/Documents/mlex/ml_exercise_therapanacea/resnet_val.txt 
+checkpoint_path: /home/nexton/Documents/mlex/model/resnet.ckpt
+batch_size: 512
+# get_proba: true
+val_threshold: 0.959
+model_type: resnet

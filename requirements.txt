@@ -1,0 +1,11 @@
+torch
+numpy
+pandas
+matplotlib
+pillow
+albumentations
+tqdm
+lightning
+configargparse
+timm
+scikit-learn

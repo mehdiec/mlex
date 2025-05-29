@@ -1,0 +1,7 @@
+__pycache__
+.cometml-runs
+.vscode
+ml_exercise_therapanacea/train_img
+ml_exercise_therapanacea/val_img
+config.yaml
+model/*
